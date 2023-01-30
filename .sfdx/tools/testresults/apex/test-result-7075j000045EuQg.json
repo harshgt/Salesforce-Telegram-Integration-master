@@ -1,0 +1,658 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 33,
+    "passing": 32,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "97%",
+    "failRate": "3%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jan 12 2023 2:46:39 PM",
+    "testExecutionTimeInMs": 18613,
+    "testTotalTimeInMs": 18613,
+    "commandTimeInMs": 544,
+    "hostname": "https://sthp-dev-ed.my.salesforce.com",
+    "orgId": "00D5j000001kzcDEAQ",
+    "username": "hpshyam@st.com",
+    "testRunId": "7075j000045EuQg",
+    "userId": "0055j000001fPL7AAM"
+  },
+  "tests": [
+    {
+      "id": "07M5j000002ddhtEAA",
+      "queueItemId": "7095j00000097MdAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testCommunitiesLoginController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1AEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqdAAB",
+        "name": "CommunitiesLoginControllerTest",
+        "namespacePrefix": null,
+        "fullName": "CommunitiesLoginControllerTest"
+      },
+      "runTime": 49,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "CommunitiesLoginControllerTest.testCommunitiesLoginController"
+    },
+    {
+      "id": "07M5j000002ddj7EAA",
+      "queueItemId": "7095j00000097MeAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testgetGraphicSizeOptions",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU10EAF",
+      "apexClass": {
+        "id": "01p5j00000Kh0zrAAB",
+        "name": "TestGraphicsPackController",
+        "namespacePrefix": null,
+        "fullName": "TestGraphicsPackController"
+      },
+      "runTime": 2764,
+      "testTimestamp": "2023-01-12T09:16:50.000+0000",
+      "fullName": "TestGraphicsPackController.testgetGraphicSizeOptions"
+    },
+    {
+      "id": "07M5j000002ddj8EAA",
+      "queueItemId": "7095j00000097MeAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testgetGraphicsPackSetting",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU10EAF",
+      "apexClass": {
+        "id": "01p5j00000Kh0zrAAB",
+        "name": "TestGraphicsPackController",
+        "namespacePrefix": null,
+        "fullName": "TestGraphicsPackController"
+      },
+      "runTime": 3148,
+      "testTimestamp": "2023-01-12T09:16:52.000+0000",
+      "fullName": "TestGraphicsPackController.testgetGraphicsPackSetting"
+    },
+    {
+      "id": "07M5j000002ddj6EAA",
+      "queueItemId": "7095j00000097MeAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testcreateImageMaps",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU10EAF",
+      "apexClass": {
+        "id": "01p5j00000Kh0zrAAB",
+        "name": "TestGraphicsPackController",
+        "namespacePrefix": null,
+        "fullName": "TestGraphicsPackController"
+      },
+      "runTime": 10540,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "TestGraphicsPackController.testcreateImageMaps"
+    },
+    {
+      "id": "07M5j000002ddiNEAQ",
+      "queueItemId": "7095j00000097MfAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testSave",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1FEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqbAAB",
+        "name": "MyProfilePageControllerTest",
+        "namespacePrefix": null,
+        "fullName": "MyProfilePageControllerTest"
+      },
+      "runTime": 245,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "MyProfilePageControllerTest.testSave"
+    },
+    {
+      "id": "07M5j000002ddi8EAA",
+      "queueItemId": "7095j00000097MgAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testCommunitiesSelfRegController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1KEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqhAAB",
+        "name": "CommunitiesSelfRegControllerTest",
+        "namespacePrefix": null,
+        "fullName": "CommunitiesSelfRegControllerTest"
+      },
+      "runTime": 50,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "CommunitiesSelfRegControllerTest.testCommunitiesSelfRegController"
+    },
+    {
+      "id": "07M5j000002ddhoEAA",
+      "queueItemId": "7095j00000097MhAAI",
+      "stackTrace": "Class.apexcodesfortriggertest.TestLastNameInvalidName: line 5, column 1",
+      "message": "System.DmlException: Upsert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, The Last Name \"INVALIDNAME\" is not allowed for DML: []",
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "TestLastNameInvalidName",
+      "outcome": "Fail",
+      "apexLogId": "07L5j00000BpU15EAF",
+      "apexClass": {
+        "id": "01p5j00000M6sGQAAZ",
+        "name": "apexcodesfortriggertest",
+        "namespacePrefix": null,
+        "fullName": "apexcodesfortriggertest"
+      },
+      "runTime": 59,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "apexcodesfortriggertest.TestLastNameInvalidName",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Upsert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, The Last Name \"INVALIDNAME\" is not allowed for DML: []",
+        "exceptionStackTrace": "Class.apexcodesfortriggertest.TestLastNameInvalidName: line 5, column 1",
+        "className": "apexcodesfortriggertest",
+        "compileProblem": "",
+        "lineNumber": 5,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M5j000002ddihEAA",
+      "queueItemId": "7095j00000097MiAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testCommunitiesLandingController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1tEAF",
+      "apexClass": {
+        "id": "01p5j00000M9kqfAAB",
+        "name": "CommunitiesLandingControllerTest",
+        "namespacePrefix": null,
+        "fullName": "CommunitiesLandingControllerTest"
+      },
+      "runTime": 27,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "CommunitiesLandingControllerTest.testCommunitiesLandingController"
+    },
+    {
+      "id": "07M5j000002ddi3EAA",
+      "queueItemId": "7095j00000097MjAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testMicrobatchSelfRegController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpTQZEA3",
+      "apexClass": {
+        "id": "01p5j00000M9kqlAAB",
+        "name": "MicrobatchSelfRegControllerTest",
+        "namespacePrefix": null,
+        "fullName": "MicrobatchSelfRegControllerTest"
+      },
+      "runTime": 39,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "MicrobatchSelfRegControllerTest.testMicrobatchSelfRegController"
+    },
+    {
+      "id": "07M5j000002ddiIEAQ",
+      "queueItemId": "7095j00000097MkAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testCommunitiesSelfRegConfirmController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpTwLEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqjAAB",
+        "name": "CommunitiesSelfRegConfirmControllerTest",
+        "namespacePrefix": null,
+        "fullName": "CommunitiesSelfRegConfirmControllerTest"
+      },
+      "runTime": 35,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "CommunitiesSelfRegConfirmControllerTest.testCommunitiesSelfRegConfirmController"
+    },
+    {
+      "id": "07M5j000002ddiwEAA",
+      "queueItemId": "7095j00000097MlAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "TestClassAssignment3beforeinsert",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1jEAF",
+      "apexClass": {
+        "id": "01p5j00000M6xG2AAJ",
+        "name": "apexCodeAssignmentFourtest",
+        "namespacePrefix": null,
+        "fullName": "apexCodeAssignmentFourtest"
+      },
+      "runTime": 644,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "apexCodeAssignmentFourtest.TestClassAssignment3beforeinsert"
+    },
+    {
+      "id": "07M5j000002ddixEAA",
+      "queueItemId": "7095j00000097MlAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "beforeUpdate",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1jEAF",
+      "apexClass": {
+        "id": "01p5j00000M6xG2AAJ",
+        "name": "apexCodeAssignmentFourtest",
+        "namespacePrefix": null,
+        "fullName": "apexCodeAssignmentFourtest"
+      },
+      "runTime": 202,
+      "testTimestamp": "2023-01-12T09:16:41.000+0000",
+      "fullName": "apexCodeAssignmentFourtest.beforeUpdate"
+    },
+    {
+      "id": "07M5j000002ddiSEAQ",
+      "queueItemId": "7095j00000097MmAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "LightningLoginFormControllerInstantiation",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1UEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqpAAB",
+        "name": "LightningLoginFormControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningLoginFormControllerTest"
+      },
+      "runTime": 34,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningLoginFormControllerTest.LightningLoginFormControllerInstantiation"
+    },
+    {
+      "id": "07M5j000002ddiTEAQ",
+      "queueItemId": "7095j00000097MmAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testAuthConfig",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1UEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqpAAB",
+        "name": "LightningLoginFormControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningLoginFormControllerTest"
+      },
+      "runTime": 14,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningLoginFormControllerTest.testAuthConfig"
+    },
+    {
+      "id": "07M5j000002ddiUEAQ",
+      "queueItemId": "7095j00000097MmAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testGetSelfRegistrationURL",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1UEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqpAAB",
+        "name": "LightningLoginFormControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningLoginFormControllerTest"
+      },
+      "runTime": 9,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningLoginFormControllerTest.testGetSelfRegistrationURL"
+    },
+    {
+      "id": "07M5j000002ddiVEAQ",
+      "queueItemId": "7095j00000097MmAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testIsSelfRegistrationEnabled",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1UEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqpAAB",
+        "name": "LightningLoginFormControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningLoginFormControllerTest"
+      },
+      "runTime": 9,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningLoginFormControllerTest.testIsSelfRegistrationEnabled"
+    },
+    {
+      "id": "07M5j000002ddiWEAQ",
+      "queueItemId": "7095j00000097MmAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testIsUsernamePasswordEnabled",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1UEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqpAAB",
+        "name": "LightningLoginFormControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningLoginFormControllerTest"
+      },
+      "runTime": 20,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningLoginFormControllerTest.testIsUsernamePasswordEnabled"
+    },
+    {
+      "id": "07M5j000002ddhyEAA",
+      "queueItemId": "7095j00000097MnAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "LightningForgotPasswordControllerInstantiation",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpToJEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqqAAB",
+        "name": "LightningForgotPasswordControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningForgotPasswordControllerTest"
+      },
+      "runTime": 34,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "LightningForgotPasswordControllerTest.LightningForgotPasswordControllerInstantiation"
+    },
+    {
+      "id": "07M5j000002ddhzEAA",
+      "queueItemId": "7095j00000097MnAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testLightningForgotPasswordControllerInvalidUserName",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpToJEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqqAAB",
+        "name": "LightningForgotPasswordControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningForgotPasswordControllerTest"
+      },
+      "runTime": 8,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "LightningForgotPasswordControllerTest.testLightningForgotPasswordControllerInvalidUserName"
+    },
+    {
+      "id": "07M5j000002ddi0EAA",
+      "queueItemId": "7095j00000097MnAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testLightningForgotPasswordControllerWithNullCheckEmailRef",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpToJEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqqAAB",
+        "name": "LightningForgotPasswordControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningForgotPasswordControllerTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "LightningForgotPasswordControllerTest.testLightningForgotPasswordControllerWithNullCheckEmailRef"
+    },
+    {
+      "id": "07M5j000002ddicEAA",
+      "queueItemId": "7095j00000097MoAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testSiteLoginController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1eEAF",
+      "apexClass": {
+        "id": "01p5j00000M9kqTAAR",
+        "name": "SiteLoginControllerTest",
+        "namespacePrefix": null,
+        "fullName": "SiteLoginControllerTest"
+      },
+      "runTime": 27,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "SiteLoginControllerTest.testSiteLoginController"
+    },
+    {
+      "id": "07M5j000002ddirEAA",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testSelfRegisterWithCreatedAccount",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 398,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testSelfRegisterWithCreatedAccount"
+    },
+    {
+      "id": "07M5j000002ddisEAA",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testSelfRegisterWithProperCredentials",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 28,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testSelfRegisterWithProperCredentials"
+    },
+    {
+      "id": "07M5j000002dditEAA",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testSelfRegistration",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 15,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testSelfRegistration"
+    },
+    {
+      "id": "07M5j000002ddiuEAA",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testSiteAsContainerEnabled",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 26,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testSiteAsContainerEnabled"
+    },
+    {
+      "id": "07M5j000002ddiXEAQ",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "LightningSelfRegisterControllerInstantiation",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 35,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.LightningSelfRegisterControllerInstantiation"
+    },
+    {
+      "id": "07M5j000002ddiYEAQ",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testGetExtraFieldsInSelfRegistration",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 13,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testGetExtraFieldsInSelfRegistration"
+    },
+    {
+      "id": "07M5j000002ddiZEAQ",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testGetNonEmptyExtraFields",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 12,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testGetNonEmptyExtraFields"
+    },
+    {
+      "id": "07M5j000002ddiaEAA",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testGetNullExtraFields",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testGetNullExtraFields"
+    },
+    {
+      "id": "07M5j000002ddibEAA",
+      "queueItemId": "7095j00000097MpAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testIsValidPassword",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1ZEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqrAAB",
+        "name": "LightningSelfRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "LightningSelfRegisterControllerTest"
+      },
+      "runTime": 5,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "LightningSelfRegisterControllerTest.testIsValidPassword"
+    },
+    {
+      "id": "07M5j000002ddj1EAA",
+      "queueItemId": "7095j00000097MqAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testChangePasswordController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU23EAF",
+      "apexClass": {
+        "id": "01p5j00000M9kqXAAR",
+        "name": "ChangePasswordControllerTest",
+        "namespacePrefix": null,
+        "fullName": "ChangePasswordControllerTest"
+      },
+      "runTime": 38,
+      "testTimestamp": "2023-01-12T09:16:45.000+0000",
+      "fullName": "ChangePasswordControllerTest.testChangePasswordController"
+    },
+    {
+      "id": "07M5j000002ddimEAA",
+      "queueItemId": "7095j00000097MrAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testRegistration",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpTxiEAF",
+      "apexClass": {
+        "id": "01p5j00000M9kqVAAR",
+        "name": "SiteRegisterControllerTest",
+        "namespacePrefix": null,
+        "fullName": "SiteRegisterControllerTest"
+      },
+      "runTime": 35,
+      "testTimestamp": "2023-01-12T09:16:40.000+0000",
+      "fullName": "SiteRegisterControllerTest.testRegistration"
+    },
+    {
+      "id": "07M5j000002ddiDEAQ",
+      "queueItemId": "7095j00000097MsAAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075j000045EuQgAAK",
+      "methodName": "testForgotPasswordController",
+      "outcome": "Pass",
+      "apexLogId": "07L5j00000BpU1PEAV",
+      "apexClass": {
+        "id": "01p5j00000M9kqZAAR",
+        "name": "ForgotPasswordControllerTest",
+        "namespacePrefix": null,
+        "fullName": "ForgotPasswordControllerTest"
+      },
+      "runTime": 38,
+      "testTimestamp": "2023-01-12T09:16:39.000+0000",
+      "fullName": "ForgotPasswordControllerTest.testForgotPasswordController"
+    }
+  ]
+}
